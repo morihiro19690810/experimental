@@ -1,0 +1,12 @@
+---
+title: supernova
+date: 2017-03-03T14:15:59-06:00
+weight: 30
+---
+
+<div class="supernova">
+<div class="space">
+<div class="star">
+</div>
+</div>
+</div>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>localhost:1313/pulsar/</loc>
+    <lastmod>2017-03-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/nova/</loc>
+    <lastmod>2017-03-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/supernova/</loc>
+    <lastmod>2017-03-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/wheel/</loc>
+    <lastmod>2021-03-03T14:15:59-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/sliding_door/</loc>
+    <lastmod>2021-09-06T21:03:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/folding_door/</loc>
+    <lastmod>2021-09-06T21:03:59+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/waves/</loc>
+    <lastmod>2021-09-06T21:15:45+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/spectrum/</loc>
+    <lastmod>2021-09-06T21:19:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/counter/</loc>
+    <lastmod>2021-09-06T21:26:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/</loc>
+  </url>
+  
+  <url>
+    <loc>localhost:1313/tags/</loc>
+  </url>
+  
+</urlset>

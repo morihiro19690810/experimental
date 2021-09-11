@@ -1,0 +1,7 @@
+baseURL = 'localhost:1313'
+languageCode = 'en-us'
+title = 'Experimental Coding'
+assetDir = 'resources/_gen/assets'
+
+[markup.goldmark.renderer]
+ unsafe = true
