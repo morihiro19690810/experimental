@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experimental Coding</title>
-    <link>localhost:1313/</link>
+    <link>https://experimental.morihiro.tokyo/</link>
     <description>Recent content on Experimental Coding</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://experimental.morihiro.tokyo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pulsar</title>
-      <link>localhost:1313/pulsar/</link>
+      <link>https://experimental.morihiro.tokyo/pulsar/</link>
       <pubDate>Fri, 03 Mar 2017 14:15:59 -0600</pubDate>
       
-      <guid>localhost:1313/pulsar/</guid>
+      <guid>https://experimental.morihiro.tokyo/pulsar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nova</title>
-      <link>localhost:1313/nova/</link>
+      <link>https://experimental.morihiro.tokyo/nova/</link>
       <pubDate>Fri, 03 Mar 2017 14:15:59 -0600</pubDate>
       
-      <guid>localhost:1313/nova/</guid>
+      <guid>https://experimental.morihiro.tokyo/nova/</guid>
       <description></description>
     </item>
     
     <item>
       <title>supernova</title>
-      <link>localhost:1313/supernova/</link>
+      <link>https://experimental.morihiro.tokyo/supernova/</link>
       <pubDate>Fri, 03 Mar 2017 14:15:59 -0600</pubDate>
       
-      <guid>localhost:1313/supernova/</guid>
+      <guid>https://experimental.morihiro.tokyo/supernova/</guid>
       <description></description>
     </item>
     
     <item>
       <title>wheel</title>
-      <link>localhost:1313/wheel/</link>
+      <link>https://experimental.morihiro.tokyo/wheel/</link>
       <pubDate>Wed, 03 Mar 2021 14:15:59 -0600</pubDate>
       
-      <guid>localhost:1313/wheel/</guid>
+      <guid>https://experimental.morihiro.tokyo/wheel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sliding_door</title>
-      <link>localhost:1313/sliding_door/</link>
+      <link>https://experimental.morihiro.tokyo/sliding_door/</link>
       <pubDate>Mon, 06 Sep 2021 21:03:59 +0900</pubDate>
       
-      <guid>localhost:1313/sliding_door/</guid>
+      <guid>https://experimental.morihiro.tokyo/sliding_door/</guid>
       <description>EXITGO!</description>
     </item>
     
     <item>
       <title>folding_door</title>
-      <link>localhost:1313/folding_door/</link>
+      <link>https://experimental.morihiro.tokyo/folding_door/</link>
       <pubDate>Mon, 06 Sep 2021 21:03:59 +0900</pubDate>
       
-      <guid>localhost:1313/folding_door/</guid>
+      <guid>https://experimental.morihiro.tokyo/folding_door/</guid>
       <description>EXITGO!</description>
     </item>
     
     <item>
       <title>waves</title>
-      <link>localhost:1313/waves/</link>
+      <link>https://experimental.morihiro.tokyo/waves/</link>
       <pubDate>Mon, 06 Sep 2021 21:15:45 +0900</pubDate>
       
-      <guid>localhost:1313/waves/</guid>
+      <guid>https://experimental.morihiro.tokyo/waves/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>spectrum</title>
-      <link>localhost:1313/spectrum/</link>
+      <link>https://experimental.morihiro.tokyo/spectrum/</link>
       <pubDate>Mon, 06 Sep 2021 21:19:16 +0900</pubDate>
       
-      <guid>localhost:1313/spectrum/</guid>
+      <guid>https://experimental.morihiro.tokyo/spectrum/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>counter</title>
-      <link>localhost:1313/counter/</link>
+      <link>https://experimental.morihiro.tokyo/counter/</link>
       <pubDate>Mon, 06 Sep 2021 21:26:29 +0900</pubDate>
       
-      <guid>localhost:1313/counter/</guid>
+      <guid>https://experimental.morihiro.tokyo/counter/</guid>
       <description> 0</description>
     </item>
     
