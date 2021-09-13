@@ -20,6 +20,12 @@ body {
   font-family: "PT Mono", monospace;
   text-align: center;
 
+  h1 {
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 1.5em;
+  }
+
   a {
     text-decoration: none;
     &:hover {
@@ -38,11 +44,7 @@ body {
 // for index.html
 
 .index_html {
-  h1 {
-    margin: 0 auto;
-    padding: 50px;
-    font-size: 1.5em;
-  }
+
   ul {
     list-style: none;
 
