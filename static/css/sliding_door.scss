@@ -6,6 +6,11 @@
   background-color: white;
   text-align: center;
   z-index: 0;
+  cursor: pointer;
+
+  &:active button::before {
+    transform: translate(-100px);
+  }
 
   button {
     margin: 100px 0;
@@ -32,9 +37,7 @@
       transition: transform 3s;
     }
 
-    &:hover::before {
-      transform: translate(-100px);
-    }
+
     &:active {
       border-color: red;
       background-color: red;

@@ -33,6 +33,14 @@ body a:hover {
   background-color: white;
   text-align: center;
   z-index: 0;
+  cursor: pointer;
+}
+#folding_door:active button::before {
+  transition: transform 3s;
+  transform: rotateY(-120deg);
+  transform-origin: left;
+  transform-style: preserve-3d;
+  perspective: 90px;
 }
 #folding_door button {
   margin: 100px 0;
@@ -58,13 +66,6 @@ body a:hover {
   left: 0px;
   transition: transform 0.5s;
   transform: rotateY(0deg);
-  transform-origin: left;
-  transform-style: preserve-3d;
-  perspective: 90px;
-}
-#folding_door button:hover::before {
-  transition: transform 3s;
-  transform: rotateY(-120deg);
   transform-origin: left;
   transform-style: preserve-3d;
   perspective: 90px;

@@ -33,6 +33,10 @@ body a:hover {
   background-color: white;
   text-align: center;
   z-index: 0;
+  cursor: pointer;
+}
+#sliding_door:active button::before {
+  transform: translate(-100px);
 }
 #sliding_door button {
   margin: 100px 0;
@@ -57,9 +61,6 @@ body a:hover {
   top: 0px;
   left: 0px;
   transition: transform 3s;
-}
-#sliding_door button:hover::before {
-  transform: translate(-100px);
 }
 #sliding_door button:active {
   border-color: red;
