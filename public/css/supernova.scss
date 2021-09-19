@@ -3,21 +3,19 @@
 
 .supernova {
   .space {
+    @include ActiveSpace;
     margin: 0;
     &::-webkit-scrollbar {
       display: none;
     }
-    background-color: $Darkness;
-    height: 100vh;
-    // position: relative;
     overflow: hidden;
   }
   .star {
     @include Star;
+  }
 
-    &:active {
-      transform: scale(100);
+    &:active .star{
+      transform: scale(50);
     }
   }
-}
 

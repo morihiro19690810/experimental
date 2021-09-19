@@ -21,7 +21,7 @@
       background-color: gainsboro;
     }
 
-    &:hover div {
+    &:active div {
       animation: spin-keyframe 5s infinite;
 
       @for $x from 1 through 100 {

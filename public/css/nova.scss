@@ -3,15 +3,13 @@
 
 .nova {
   .space {
-    background-color: $Darkness;
-    height: 100vh;
-    // position: relative;
-  }
+    @include ActiveSpace;
 
   .star {
     @include Star;
+  }
 
-    &:active {
+    &:active .star{
       transform: scale(10);
     }
   }

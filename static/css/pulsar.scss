@@ -2,16 +2,15 @@
 // for pulsar
 .pulsar {
   .space {
-    background-color: $Darkness;
-    height: 100vh;
-  }
+    @include ActiveSpace;
 
   .star {
     @include Star;
-
-    &:active {
-      height: 200px;
-      width: 200px;
-    }
   }
+
+  &:active .star {
+    height: 100px;
+    width: 100px;
+  }
+}
 }

@@ -2,6 +2,7 @@ body {
   font-family: "PT Mono", monospace;
   text-align: center;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
 }
 body h1 {
   margin: 0 auto;
@@ -31,11 +32,11 @@ body a:hover {
 .counter {
   margin: 100px auto;
   padding: 20px;
-  width: 100px;
-  height: 100px;
+  width: 5rem;
+  height: 5rem;
   background-color: black;
   border-radius: 50%;
-  font-size: 7em;
+  font-size: 5rem;
   color: white;
   -webkit-user-select: none;
      -moz-user-select: none;

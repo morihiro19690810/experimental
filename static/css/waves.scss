@@ -5,8 +5,10 @@
 .waves {
   height: 100px;
   width: 200px;
-  margin: 100px auto;
+  padding: 100px;
+  margin: auto;
   cursor: pointer;
+  background-color: whitesmoke;
 
   .spin {
     display: flex;
@@ -20,14 +22,13 @@
       margin: 2px;
       background-color: black;
     }
+  }
+  &:active .spin > div {
+    animation: Waves 1.5s forwards;
 
-    &:hover div {
-      animation: Waves 1.5s forwards;
-
-      @for $x from 1 through 10 {
-        &:nth-child(#{$x}) {
-          animation-delay: #{1-0.1 * $x}s;
-        }
+    @for $x from 1 through 10 {
+      &:nth-child(#{$x}) {
+        animation-delay: #{1-0.1 * $x}s;
       }
     }
   }
