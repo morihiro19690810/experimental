@@ -1,0 +1,18 @@
+@import url("https://unpkg.com/swiper@7/swiper-bundle.min.css");
+@import "common";
+
+.swiper {
+  width: auto;
+  height: 400px;
+  position: relative;
+  img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .swiper-pagination {
+    position:abosolute;
+    top: 350px;
+
+  }
+}
