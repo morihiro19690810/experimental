@@ -1,0 +1,23 @@
+@import "common";
+// for supernova
+
+.supernova {
+  .space {
+    margin: 0;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    background-color: $Darkness;
+    height: 100vh;
+    // position: relative;
+    overflow: hidden;
+  }
+  .star {
+    @include Star;
+
+    &:active {
+      transform: scale(100);
+    }
+  }
+}
+

@@ -1,0 +1,110 @@
+body {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+}
+body h1 {
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.5em;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.waves {
+  height: 100px;
+  width: 200px;
+  margin: 100px auto;
+  cursor: pointer;
+}
+.waves .spin {
+  display: flex;
+  margin: 0 auto;
+  transform: rotate(180deg);
+  height: 100px;
+}
+.waves .spin div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+  background-color: black;
+}
+.waves .spin:hover div {
+  -webkit-animation: Waves 1.5s forwards;
+          animation: Waves 1.5s forwards;
+}
+.waves .spin:hover div:nth-child(1) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+.waves .spin:hover div:nth-child(2) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.waves .spin:hover div:nth-child(3) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+.waves .spin:hover div:nth-child(4) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.waves .spin:hover div:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.waves .spin:hover div:nth-child(6) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.waves .spin:hover div:nth-child(7) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.waves .spin:hover div:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.waves .spin:hover div:nth-child(9) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.waves .spin:hover div:nth-child(10) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes Waves {
+  0% {
+    height: 20px;
+  }
+  25% {
+    height: 100px;
+  }
+  50% {
+    height: 20px;
+  }
+}
+
+@keyframes Waves {
+  0% {
+    height: 20px;
+  }
+  25% {
+    height: 100px;
+  }
+  50% {
+    height: 20px;
+  }
+}/*# sourceMappingURL=waves.css.map */

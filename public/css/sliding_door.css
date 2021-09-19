@@ -1,0 +1,82 @@
+body {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+}
+body h1 {
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.5em;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#sliding_door {
+  background-color: white;
+  text-align: center;
+  z-index: 0;
+}
+#sliding_door button {
+  margin: 100px 0;
+  height: 200px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid;
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: transform 1s;
+  overflow: hidden;
+}
+#sliding_door button::before {
+  content: "";
+  display: inline-block;
+  background-color: black;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: transform 3s;
+}
+#sliding_door button:hover::before {
+  transform: translate(-100px);
+}
+#sliding_door button:active {
+  border-color: red;
+  background-color: red;
+}
+#sliding_door button:active::before {
+  transition: transform 0ms;
+  transform: translate(-101px);
+}
+#sliding_door button .label-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#sliding_door button:active .label-1 {
+  left: 150%;
+}
+#sliding_door button .label-2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+}
+#sliding_door button:active .label-2 {
+  left: 50%;
+}/*# sourceMappingURL=sliding_door.css.map */

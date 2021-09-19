@@ -3,7 +3,7 @@ title: waves
 date: 2021-09-06T21:15:45+09:00
 weight: 70
 ---
-
+{{<page_title>}}
   <div class="waves">
   <div class="spin">
     <div class="spin1"></div>

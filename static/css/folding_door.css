@@ -1,0 +1,91 @@
+body {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+}
+body h1 {
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.5em;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#folding_door {
+  background-color: white;
+  text-align: center;
+  z-index: 0;
+}
+#folding_door button {
+  margin: 100px 0;
+  height: 200px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid;
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 300px;
+}
+#folding_door button::before {
+  content: "";
+  display: inline-block;
+  background-color: black;
+  height: 200px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: transform 0.5s;
+  transform: rotateY(0deg);
+  transform-origin: left;
+  transform-style: preserve-3d;
+  perspective: 90px;
+}
+#folding_door button:hover::before {
+  transition: transform 3s;
+  transform: rotateY(-120deg);
+  transform-origin: left;
+  transform-style: preserve-3d;
+  perspective: 90px;
+}
+#folding_door button:active {
+  border-color: red;
+  background-color: red;
+  overflow: hidden;
+}
+#folding_door button:active::before {
+  display: none;
+}
+#folding_door button .label-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#folding_door button:active .label-1 {
+  left: 150%;
+}
+#folding_door button .label-2 {
+  display: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#folding_door button:active .label-2 {
+  display: block;
+}/*# sourceMappingURL=folding_door.css.map */

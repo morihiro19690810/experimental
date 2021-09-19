@@ -1,0 +1,17 @@
+{{ define "additional_css" }}
+<link rel="stylesheet" href="../css/index.css">
+{{ end }}
+
+{{ define "main" }}
+<div class="index_html">
+<h1>{{ .Site.Title }}</h1>
+<ul>
+  {{ range .Site.RegularPages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+</ul>
+</div>
+<footer>
+  Project by Morihiro
+</footer>
+ {{ end }}

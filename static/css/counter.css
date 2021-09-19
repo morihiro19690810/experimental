@@ -1,0 +1,40 @@
+body {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+}
+body h1 {
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.5em;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.counter {
+  margin: 100px auto;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 7em;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.counter:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=counter.css.map */

@@ -1,0 +1,19 @@
+@import "common";
+
+// for counter
+
+.counter {
+  margin: 100px auto;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 7em;
+  color: white;
+  user-select: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

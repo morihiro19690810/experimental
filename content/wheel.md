@@ -3,7 +3,7 @@ title: wheel
 date: 2021-03-03T14:15:59-06:00
 weight: 40
 ---
-
+{{<page_title>}}
 <div class="field">
     <div class="triangle">
         <div class="triangle-1"></div>

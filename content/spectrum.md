@@ -3,6 +3,7 @@ title: spectrum
 date: 2021-09-06T21:19:16+09:00
 weight: 80
 ---
+{{<page_title>}}
   <div class="box">
   <div class="line">
     <div></div>

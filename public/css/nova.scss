@@ -1,0 +1,19 @@
+@import "common";
+// for nova
+
+.nova {
+  .space {
+    background-color: $Darkness;
+    height: 100vh;
+    // position: relative;
+  }
+
+  .star {
+    @include Star;
+
+    &:active {
+      transform: scale(10);
+    }
+  }
+}
+

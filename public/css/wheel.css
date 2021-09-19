@@ -1,0 +1,68 @@
+body {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+}
+body h1 {
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 1.5em;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 5s;
+  cursor: progress;
+}
+.triangle:hover {
+  transform: rotate(1080deg);
+}
+.triangle .triangle-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-width: 0 50px 100px 0px;
+  border-color: transparent transparent red transparent;
+}
+.triangle .triangle-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-100px);
+  border-style: solid;
+  border-width: 0px 0 50px 100px;
+  border-color: transparent transparent transparent blue;
+}
+.triangle .triangle-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px, -100px);
+  border-style: solid;
+  border-width: 100px 0px 0px 50px;
+  border-color: greenyellow transparent transparent transparent;
+}
+.triangle .triangle-4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0px, -50px);
+  border-style: solid;
+  border-width: 50px 100px 0px 0px;
+  border-color: transparent orange transparent transparent;
+}/*# sourceMappingURL=wheel.css.map */

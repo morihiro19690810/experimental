@@ -1,0 +1,47 @@
+@import "common";
+
+// for waves
+
+.waves {
+  height: 100px;
+  width: 200px;
+  margin: 100px auto;
+  cursor: pointer;
+
+  .spin {
+    display: flex;
+    margin: 0 auto;
+    transform: rotate(180deg);
+    height: 100px;
+    & div {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 2px;
+      background-color: black;
+    }
+
+    &:hover div {
+      animation: Waves 1.5s forwards;
+
+      @for $x from 1 through 10 {
+        &:nth-child(#{$x}) {
+          animation-delay: #{1-0.1 * $x}s;
+        }
+      }
+    }
+  }
+}
+
+@keyframes Waves {
+  0% {
+    height: 20px;
+  }
+  25% {
+    height: 100px;
+  }
+  50% {
+    height: 20px;
+  }
+}
+

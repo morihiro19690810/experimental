@@ -1,0 +1,17 @@
+@import "common";
+// for pulsar
+.pulsar {
+  .space {
+    background-color: $Darkness;
+    height: 100vh;
+  }
+
+  .star {
+    @include Star;
+
+    &:active {
+      height: 200px;
+      width: 200px;
+    }
+  }
+}

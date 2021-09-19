@@ -1,7 +1,16 @@
+{{ define "additional_css" }}
+<link rel="stylesheet" href="../css/{{ .Title }}.css">
+{{ end }}
+
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
 {{ .Content }}
 <footer>
   <button><a href="../index.html">Back to Top</a></button>
 </footer>
+ {{ end }}
+
+ {{ define "additional_js" }}
+{{ if (fileExists "static/js/{{ .Title }}.js") }}
+ <script src="../js/{{ .Title }}.js"></script>
+ {{ end }}
  {{ end }}
