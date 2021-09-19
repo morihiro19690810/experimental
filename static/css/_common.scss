@@ -21,6 +21,7 @@ $Light: white;
 body {
   font-family: "PT Mono", monospace;
   text-align: center;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 
   h1 {
     margin: 0 auto;
@@ -30,7 +31,7 @@ body {
 
   a {
     text-decoration: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
     &:hover {
       font-weight: 600;
     }
