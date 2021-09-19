@@ -7,4 +7,4 @@ weight: 50
 <div id="sliding_door">
   <button><span class="label-1">EXIT</span><span class="label-2">GO!</span></button>
 </div>
-
+{{<footer_absolute>}}

@@ -15,11 +15,17 @@ body a:hover {
   font-weight: 600;
 }
 
-footer {
+.footer_absolute {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translate(-50%);
+}
+
+.footer_relative {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .box {

@@ -5,4 +5,5 @@ weight: 90
 ---
 {{<page_title>}}
   <div class="counter">0</div>
+{{<footer_absolute>}}
 {{<js>}}

@@ -18,3 +18,4 @@ weight: 70
     <div class="spin10"></div>
   </div>
 </div>
+{{<footer_absolute>}}

@@ -1,0 +1,11 @@
+@import "common";
+
+.flexbox {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
+img {
+  width: 200px;
+}

@@ -12,3 +12,4 @@ weight: 40
         <div class="triangle-4"></div>
     </div>
 </div>
+{{<footer_absolute>}}
