@@ -7,5 +7,5 @@ weight: 90
   <div class="counter">
   0
   </div>
-{{<footer_absolute>}}
+{{<footer_relative>}}
 {{<js>}}
