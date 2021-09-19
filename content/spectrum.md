@@ -106,6 +106,6 @@ weight: 80
     <div></div>
     <div></div>
     <div></div>
-    <div></div>
-    <div></div>
+  </div>
+</div>
 {{<footer_absolute>}}
