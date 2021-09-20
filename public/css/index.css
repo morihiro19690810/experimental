@@ -29,6 +29,14 @@ body a:hover {
   padding: 40px;
 }
 
+body {
+  background-image: url("../img/display.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-color:rgba(255,255,255,0.93);
+  background-blend-mode:lighten;
+}
+
 .index_html ul {
   list-style: none;
 }
