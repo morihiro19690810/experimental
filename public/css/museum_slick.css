@@ -31,10 +31,10 @@ body a:hover {
   padding: 40px;
 }
 
-.slick-slide {
+div {
   text-align: center;
 }
-.slick-slide img {
+div img {
   width: 400px;
   height: 300px;
 }/*# sourceMappingURL=museum_slick.css.map */

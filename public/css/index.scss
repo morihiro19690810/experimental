@@ -3,9 +3,11 @@
 // for index.html
 
 body {
-  background-image: "../img/display.jpg";
+  background-image: url("../img/display.jpg");
+  background-repeat: none;
+  background-size: cover;
   background-color:rgba(255,255,255,0.93);
-  background-blend-mode:lighten;
+  background-blend-mode: lighten;
 }
 .index_html {
 
