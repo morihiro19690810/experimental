@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css");
 body {
   font-family: "PT Mono", monospace;
   text-align: center;
@@ -29,13 +31,10 @@ body a:hover {
   padding: 40px;
 }
 
-body {
-  background-image: "../img/display.jpg";
+.slick-slide {
+  text-align: center;
 }
-
-.index_html ul {
-  list-style: none;
-}
-.index_html ul li {
-  padding: 5px;
-}/*# sourceMappingURL=index.css.map */
+.slick-slide img {
+  width: 400px;
+  height: 300px;
+}/*# sourceMappingURL=museum_slick.css.map */
